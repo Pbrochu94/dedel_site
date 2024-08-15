@@ -1,0 +1,67 @@
+body
+{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    padding:0;
+    margin: 0;
+}
+
+.header
+{
+    display:flex;
+    height:90px;
+    width:100%;
+    box-sizing: border-box;
+    background-color:rgb(37, 35, 35);
+    padding:0;
+    margin: 0;
+    align-items:center;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.links
+{   
+    display:flex;
+    color:rgb(219, 217, 217);
+    font-family:Georgia, serif;
+    gap:39px;
+    font-weight: 500;
+    margin: 0;
+    padding-right:0;
+    padding-left:0;
+    width: 30vw;
+}
+
+.links #accueil
+{
+    text-decoration: underline;
+}
+
+.name
+{
+   width: 33vw;
+   display:flex;
+   justify-content: center;
+   font-size:30px;
+   color:rgb(219, 217, 217);
+   font-family: Georgia, serif;
+   font-weight: 500;
+}
+
+.socials
+{
+    width:33vw;
+    display: flex;
+    justify-content: end;
+    gap:39px;
+}
+
+.socials img
+{
+    width:24px;
+    height:20px;
+    color:rgb(219, 217, 217);
+}
