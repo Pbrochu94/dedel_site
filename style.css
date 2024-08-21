@@ -250,7 +250,7 @@ body
 
 .temoignages
 {
-    background-color:blue;
+    background-color:rgb(46, 45, 45);
     height:1300px;
     padding: 0px;
     position:relative;
@@ -271,6 +271,7 @@ body
 {
     width:100%;
     margin: 0px;
+    height:100%;
 }
 
 .temoignage-title
@@ -316,4 +317,24 @@ li
     font-size: 22px;
 }
 
+.footer
+{
+    background-color:rgb(46, 45, 45);
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
+.footer-socials-wrapper
+{
+    display: flex;
+    gap:20px;
+}
+
+.footer-socials-wrapper img
+{
+    width:28px;
+    height:24px;
+    color:rgb(243, 236, 236);
+}
